@@ -1,28 +1,19 @@
 {
-  "name": "villecodes-v2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "blog.villecodes.com",
+  "version": "0.0.1",
+  "description": "The blog of villecodes.com",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
-  "dependencies": {
-    "core-js": "^3.3.2",
-    "now": "^16.4.4",
-    "vue": "^2.6.10"
-  },
+  "author": "villecodes.com",
+  "license": "ISC",
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "@vuepress/plugin-search": "^1.2.0",
+    "eslint": "^6.7.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-meta": "^2.3.1",
+    "vuepress": "^1.2.0"
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+  "dependencies": {}
 }
